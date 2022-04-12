@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/css/list.css"],"names":[],"mappings":"AAAA,iBACE,YACF,CAEA,YACE,eACF,CAEA,QACE,gBACF,CAEA,WACE,WACF","file":"main.93232f14.chunk.css","sourcesContent":[".listbox {\r\n  padding: 30px;\r\n}\r\n\r\n.box, .table {\r\n  margin-top:20px;\r\n}\r\n\r\n.delbox {\r\n  margin-left: 10px;\r\n}\r\n\r\n.dateStyle {\r\n  width: 452px\r\n}"]}

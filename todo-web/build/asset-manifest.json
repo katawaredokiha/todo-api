@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.93232f14.chunk.css",
-    "main.js": "/static/js/main.c07c9dfa.chunk.js",
-    "main.js.map": "/static/js/main.c07c9dfa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.02658b01.js",
-    "runtime-main.js.map": "/static/js/runtime-main.02658b01.js.map",
-    "static/css/2.98e7ac70.chunk.css": "/static/css/2.98e7ac70.chunk.css",
-    "static/js/2.e5061ed5.chunk.js": "/static/js/2.e5061ed5.chunk.js",
-    "static/js/2.e5061ed5.chunk.js.map": "/static/js/2.e5061ed5.chunk.js.map",
-    "static/js/3.a17ebdca.chunk.js": "/static/js/3.a17ebdca.chunk.js",
-    "static/js/3.a17ebdca.chunk.js.map": "/static/js/3.a17ebdca.chunk.js.map",
+    "main.css": "/todo-api/todo-web/build/static/css/main.93232f14.chunk.css",
+    "main.js": "/todo-api/todo-web/build/static/js/main.c07c9dfa.chunk.js",
+    "main.js.map": "/todo-api/todo-web/build/static/js/main.c07c9dfa.chunk.js.map",
+    "runtime-main.js": "/todo-api/todo-web/build/static/js/runtime-main.02658b01.js",
+    "runtime-main.js.map": "/todo-api/todo-web/build/static/js/runtime-main.02658b01.js.map",
+    "static/css/2.98e7ac70.chunk.css": "/todo-api/todo-web/build/static/css/2.98e7ac70.chunk.css",
+    "static/js/2.e5061ed5.chunk.js": "/todo-api/todo-web/build/static/js/2.e5061ed5.chunk.js",
+    "static/js/2.e5061ed5.chunk.js.map": "/todo-api/todo-web/build/static/js/2.e5061ed5.chunk.js.map",
+    "static/js/3.a17ebdca.chunk.js": "/todo-api/todo-web/build/static/js/3.a17ebdca.chunk.js",
+    "static/js/3.a17ebdca.chunk.js.map": "/todo-api/todo-web/build/static/js/3.a17ebdca.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.98e7ac70.chunk.css.map": "/static/css/2.98e7ac70.chunk.css.map",
-    "static/css/main.93232f14.chunk.css.map": "/static/css/main.93232f14.chunk.css.map",
-    "static/js/2.e5061ed5.chunk.js.LICENSE.txt": "/static/js/2.e5061ed5.chunk.js.LICENSE.txt"
+    "static/css/2.98e7ac70.chunk.css.map": "/todo-api/todo-web/build/static/css/2.98e7ac70.chunk.css.map",
+    "static/css/main.93232f14.chunk.css.map": "/todo-api/todo-web/build/static/css/main.93232f14.chunk.css.map",
+    "static/js/2.e5061ed5.chunk.js.LICENSE.txt": "/todo-api/todo-web/build/static/js/2.e5061ed5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02658b01.js",

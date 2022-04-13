@@ -105,14 +105,14 @@ export default class Home extends Component {
   changeStatus = (item) => {
     if (item.status === '2') {
       item.status = '1' // 从完成变成代办
-      axios.post('http://127.0.0.1:3333/update_status', item)
+      axios.post('http://175.178.162.111:3333/update_status', item)
         .then(response => {
           this.queryData();
           message.success('状态变更代办成功');
         })
     } else if (item.status === '1') {
       item.status = '2' // 从代办变成完成
-      axios.post('http://127.0.0.1:3333/update_status', item)
+      axios.post('http://175.178.162.111:3333/update_status', item)
         .then(response => {
           this.queryData();
           message.success('状态变更完成');
@@ -123,7 +123,7 @@ export default class Home extends Component {
   delHandel = (item) => {
     message.success('任务删除成功');
     item.status = '3' // 全部改成删除装填
-    axios.post('http://127.0.0.1:3333/update_status', item)
+    axios.post('http://175.178.162.111:3333/update_status', item)
       .then(response => {
         this.queryData();
       })
@@ -149,7 +149,7 @@ export default class Home extends Component {
     itemInfo.endTime = moment(itemInfo.endTime).format('YYYY-MM-DD') //这么解决的
     if (this.state.type === 'add') {      // 调用新增接口
       itemInfo.status = '1'; // 默认是1
-      axios.post('http://127.0.0.1:3333/create', itemInfo)
+      axios.post('http://175.178.162.111:3333/create', itemInfo)
         .then(response => {
           message.success('任务新增完成');
           this.queryData()
@@ -160,7 +160,7 @@ export default class Home extends Component {
     } else {   // 调用修改接口
       itemInfo.status = this.state.items.status
       itemInfo.id = this.state.items.id
-      axios.post('http://127.0.0.1:3333/update', itemInfo)
+      axios.post('http://175.178.162.111:3333/update', itemInfo)
         .then(response => {
           message.success('任务修改完成');
           this.queryData()
@@ -174,7 +174,7 @@ export default class Home extends Component {
 
   // 查询所有列表
   queryData() {
-    axios.get('http://127.0.0.1:3333/list/')
+    axios.get('http://175.178.162.111:3333/list/')
       .then(response => {
         var items = response.data.list;
         this.setState({
